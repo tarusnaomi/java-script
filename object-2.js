@@ -11,7 +11,7 @@ const hospital = {
       name: "Emergency",
       headDoctor: {
         name: "Dr.smith",
-        speciaty: "Emergency Medicine",
+        specialty: "Emergency Medicine",
         age: 45,
         isBoardCertified: true,
       },
@@ -33,10 +33,13 @@ const hospital = {
   },
 };
 
-console.log(hospital);
+// console.log(hospital);
 //To access the name of the hospital
-console.log("Hospital Name:", hospital.name);
-//access th street ofthe hospital
+console.log(hospital.name);
+//access the street ofthe hospital
+console.log(hospital.address.street);
 //access the name of the head of the emergency doctor
+console.log(hospital.departments);
 //access the email of the hospital
+console.log(hospital.contactInfo.email);
 //access the specialty of the doctor of the pediatrics department
